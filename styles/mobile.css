@@ -4,7 +4,7 @@
 
 
 .main-body {
-    width: 97%;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
     display: block;
     overflow:wrap;
@@ -58,7 +58,6 @@
 .main-body-header-inline h2 {
     display: inline;
     float: left;
-    padding-left: 1em;
 }
 
 
@@ -84,6 +83,7 @@ a:hover {
     text-align: center;
     font-size: 1.5em;
     margin:auto;  
+    align-items: center;
 
 }
 
@@ -115,6 +115,7 @@ a:hover {
 hr.style {
     border-top: 5px solid #000080;
     width: 95%;
+    align-content: center;
 }
 
 .section-header {
