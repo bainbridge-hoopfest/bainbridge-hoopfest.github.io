@@ -7,14 +7,14 @@
     width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
     display: block;
-    overflow: auto;
+    overflow-x:hidden;
     font-family:Raleway, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif
 
 }
 
 .main-body-header-inline h2 {
     color: #000080;
-   font-size: 6em;
+   font-size: 10em;
     font-family: "Monoton", cursive;
     font-weight: 100;
     margin-bottom: .5em;
