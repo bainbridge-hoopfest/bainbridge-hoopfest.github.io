@@ -1,6 +1,15 @@
 /*Theme colors to be updated, just hideous*/
 
 @import url('https://fonts.googleapis.com/css?family=Monoton');
+
+@media (max-width: 700px) {
+  .main-body{
+    width:100%;
+  }
+.main-body-header-inline h2 {
+    font-size: 2em;
+}
+}
 body {
     background: #ffb732;
     background: radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
