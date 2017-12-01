@@ -7,14 +7,15 @@
     width: 97%;
     background-color: rgba(255, 255, 255, 0.9);
     display: block;
-    overflow-x:hidden;
+    overflow:wrap;
     font-family:Raleway, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif
 
 }
 
 .main-body-header-inline h2 {
     color: #000080;
-   	font-size: 6.5em;
+    width: 100%;
+   	font-size: 6em;
     font-family: "Monoton", cursive;
     font-weight: 100;
     text-align: center;
@@ -99,20 +100,20 @@ a:hover {
     padding: 1vw;
     border-radius: 3px;
     display: inline-block;
-    font-size: 2em;
+    font-size: 2.5em;
 
 }
 
 .smalltext {
     padding-top: 5px;
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: 100;
     color: #fff;
     /*find new color*/
 }
 
 hr.style {
-    border-top: 2px solid #000080;
+    border-top: 5px solid #000080;
     width: 95%;
 }
 
