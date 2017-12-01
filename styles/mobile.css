@@ -4,7 +4,7 @@
 
 
 .main-body {
-    width: 95%;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
     display: block;
     overflow:auto;
@@ -104,7 +104,7 @@ a:hover {
 
 .smalltext {
     padding-top: 5px;
-    font-size: 3em;
+    font-size: 1.5em;
     font-weight: 100;
     color: #fff;
     /*find new color*/
