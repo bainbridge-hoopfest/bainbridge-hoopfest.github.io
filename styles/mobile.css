@@ -4,7 +4,7 @@
 
 
 .main-body {
-    width: 150%;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
     display: block;
     overflow: auto;
@@ -14,7 +14,7 @@
 
 .main-body-header-inline h2 {
     color: #000080;
-   font-size: 3em;
+   font-size: 6em;
     font-family: "Monoton", cursive;
     font-weight: 100;
     margin-bottom: .5em;
@@ -135,7 +135,7 @@ hr.style {
     margin-left: 2em;
     margin-right: 2em;
     display: block;
-    font-size: 1.1em;
+    font-size: 3em;
     
 }
 
@@ -154,7 +154,7 @@ hr.style {
     margin-left: 2em;
     margin-right: 2em;
     display: block;
-    font-size: 1.1em;
+    font-size: 3em;
     width: 100%;
        
 }
@@ -170,6 +170,7 @@ hr.style {
 .section-right{
     float: right;
     width: 100%;
+    font-size: 3em;
     
 }
 .maps iframe {
@@ -177,7 +178,7 @@ hr.style {
 
     height: 400px;
     border: 0;
-    margin-top: 40px;
+    margin-top: 0px;
     margin-left:2em;
 }
 
