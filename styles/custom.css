@@ -8,7 +8,7 @@
     }
     .main-body-header-inline h2 {
     font-size: 2em;
-    color:#FFFFFF;
+    color: #FFFFFF !important;
     }
 }
 body {
