@@ -7,7 +7,7 @@
     width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
     display: block;
-    overflow:auto;
+    overflow-x:hidden;
     font-family:Raleway, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif
 
 }
@@ -93,18 +93,20 @@ a:hover {
     display: inline-block;
     background-color: #000080;
     /*find new color or remove*/
+    margin:auto;
 }
 
 #clockdiv div>span {
     padding: 1vw;
     border-radius: 3px;
     display: inline-block;
+    font-size: 2em;
 
 }
 
 .smalltext {
     padding-top: 5px;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 100;
     color: #fff;
     /*find new color*/
