@@ -4,10 +4,10 @@
 
 
 .main-body {
-    width: 100%;
+    width: 95%;
     background-color: rgba(255, 255, 255, 0.9);
     display: block;
-    overflow-x:hidden;
+    overflow:auto;
     font-family:Raleway, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif
 
 }
@@ -80,18 +80,16 @@ a:hover {
     font-family: sans-serif;
     color: #fff;
     display: inline-block;
-    position: static;
     font-weight: 700;
     text-align: center;
-    font-size: 2em;
-
-  
+    font-size: 4em;
+    margin:auto;  
 
 }
 
 #clockdiv>div {
-    padding: .8vw;
-    border-radius: 3px;
+    padding: 1em;
+    border-radius: 4px;
     display: inline-block;
     background-color: #000080;
     /*find new color or remove*/
@@ -106,7 +104,7 @@ a:hover {
 
 .smalltext {
     padding-top: 5px;
-    font-size: 1em;
+    font-size: 3em;
     font-weight: 100;
     color: #fff;
     /*find new color*/
