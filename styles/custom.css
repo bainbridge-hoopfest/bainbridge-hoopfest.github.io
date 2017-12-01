@@ -1,0 +1,246 @@
+/*Theme colors to be updated, just hideous*/
+
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+body {
+    background: #ffb732;
+    background: radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
+    background: -webkit-radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
+    /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
+    /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
+    /* For Firefox 3.6 to 15 */
+    font-family: "Bookman";
+    font-weight: 100;
+}
+
+.main-body {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-color: #000000;
+    padding-top: .5em;
+    display: block;
+    padding-bottom: .5em;
+    box-shadow: 4px 0 2px -2px rgba(0, 0, 0, .4);
+    overflow: auto;
+    font-family:Raleway, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif
+
+}
+
+.main-body-header-inline h2 {
+    color: #000080;
+   font-size: 3.6vw;
+    font-family: "Monoton", cursive;
+    font-weight: 100;
+    margin-bottom: .5em;
+}
+
+.main-body-header {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation ul li {
+    list-style-type: none;
+    font-size: 1.55vw;
+    display: inline-block;
+}
+
+.navigation ul {
+    padding-left: 0;
+}
+
+.navigation ul li a {
+    font-weight: bold;
+}
+
+.scd-counter-col {
+    display: inline-block;
+    clear: both;
+}
+
+.scd-all-wrapper {
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.scd-all-wrapper {
+    width: 100%;
+    font-size: inherit;
+}
+
+.main-body-header-inline h2 {
+    display: inline;
+    float: left;
+    padding-left: 1em;
+}
+
+
+a {
+    color: #fead16;
+    text-decoration: none;
+    padding: 0px 1.25vw;
+}
+
+h3{
+    font-weight: 450;
+}
+
+a:hover {
+    color: #ffbb3b;
+}
+
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    position: static;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2vw;
+    float: right;
+    margin-top: 2.5vw;
+    padding-top: 2vw;
+    padding-right: 2vw;
+
+}
+
+#clockdiv>div {
+    padding: .8vw;
+    border-radius: 3px;
+    display: inline-block;
+    background-color: #000080;
+    /*find new color or remove*/
+}
+
+#clockdiv div>span {
+    padding: 1vw;
+    border-radius: 3px;
+    display: inline-block;
+
+}
+
+.smalltext {
+    padding-top: 5px;
+    font-size: 1.1vw;
+    font-weight: 100;
+    color: #fff;
+    /*find new color*/
+}
+
+hr.style {
+    border-top: 2px solid #000080;
+    width: 95%;
+}
+
+.section-header {
+    float: left;
+    font-weight: bold;
+    font-size: 2em;
+    color: #000000;
+    margin-left: 1em;
+}
+
+.section-text {
+    float: left;
+    text-align: left;
+    margin-left: 2em;
+    margin-right: 2em;
+    display: block;
+    font-size: 1.1em;
+    
+}
+
+.section-text a {
+    color: #696969;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+.section-text-left {
+    float: left;
+    text-align: left;
+    margin-left: 2em;
+    margin-right: 2em;
+    display: block;
+    font-size: 1.1em;
+    width: 40%;
+       
+}
+
+.section-text-left a {
+    color: #696969;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+.section-right{
+    float: right;
+    width: 40%;
+    padding-right:5%;
+
+}
+.maps iframe {
+    float: left;
+    width: 42%;
+    height: 400px;
+    border: 0;
+    margin-top: 40px;
+    margin-left:3vw;
+}
+
+.contact-section-names {
+    text-align: left;
+    display: inline-block;
+    float: left;
+    margin-left: 1.5em;
+    margin-right: 1em;
+    width: 80%;
+    position: relative;
+}
+
+.contact-section-names a {
+    text-decoration: underline !important;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    text-decoration-style: solid;
+}
+
+.contact-section-names img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.forms-button{
+    padding:10px;
+    margin:.4em;
+    background-color:#000080;
+    font-size:1em;
+    font-weight: 100;
+    text-decoration: none;
+    display:inline-block;
+    color:#FFFFFF;
+    margin-right: 8px;
+    opacity: .9;
+    border-left: 2px #000000;
+    box-shadow: 4px 0 2px -2px rgba(0, 0, 0, .4);
+    border-radius: 8px;
+}
+
+a:hover .forms-button{
+    opacity: .7;
+}
+
+p{
+    color:#696969;
+}
