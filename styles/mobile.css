@@ -2,7 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 
-
+body{
+	background-color: none;
+}
 .main-body {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.9);
