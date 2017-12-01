@@ -147,8 +147,6 @@ hr.style {
 .section-text-left {
     float: left;
     text-align: left;
-    margin-left: 2em;
-    margin-right: 2em;
     display: block;
     font-size: 3em;
     width: 100%;
