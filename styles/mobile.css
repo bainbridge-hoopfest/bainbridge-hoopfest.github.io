@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 
+@import url('https://fonts.googleapis.com/css?family=Rakeway');
+
 body{
 	background-color: none;
     margin:0;
@@ -12,7 +14,6 @@ body{
     padding:0;
     background-color: rgba(255, 255, 255, 0.9);
     display: block;
-    overflow:wrap;
     font-family:Raleway, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif
 
 }
@@ -20,11 +21,12 @@ body{
 .main-body-header-inline h2 {
     color: #000080;
     width: 100%;
-   	font-size: 6em;
+   	font-size: 6vw;
     font-family: "Monoton", cursive;
     font-weight: 100;
     text-align: center;
     margin:0;
+    padding:0;
 }
 
 
@@ -88,7 +90,7 @@ a:hover {
     font-weight: 700;
     text-align: center;
     font-size: 1.5em;
-    margin:auto;  
+    margin:0;  
     align-items: center;
 
 }
