@@ -131,7 +131,7 @@ hr.style {
     font-weight: bold;
     font-size: 2em;
     color: #000000;
-    padding-left: 1em;
+    margin-left: 1em;
 }
 
 .section-text {
@@ -140,7 +140,7 @@ hr.style {
     margin:auto;
     display: block;
     font-size: 3em;
-    padding-left:1em;
+    margin-left:1em;
     
 }
 
@@ -160,7 +160,9 @@ hr.style {
     font-size: 3em;
     width: 100%;
     margin:auto;       
+    margin-left:1.5em;
 }
+
 
 .section-text-left a {
     color: #696969;
@@ -168,7 +170,7 @@ hr.style {
     margin: 0;
     text-decoration: underline;
     font-weight: bold;
-    margin-left:2em;
+
 
 }
 .section-right{
