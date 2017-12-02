@@ -21,7 +21,7 @@ body{
 .main-body-header-inline h2 {
     color: #000080;
     width: 100%;
-   	font-size: 8vw;
+   	font-size: 10vw;
     font-family: "Monoton", cursive;
     font-weight: 100;
     text-align: center;
@@ -102,6 +102,7 @@ a:hover {
     background-color: #000080;
     /*find new color or remove*/
     margin:auto;
+    float:left;
 }
 
 #clockdiv div>span {
