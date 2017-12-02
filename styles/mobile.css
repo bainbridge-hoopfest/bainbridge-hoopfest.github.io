@@ -133,6 +133,7 @@ hr.style {
     font-size: 2em;
     color: #000000;
     margin-left: 1em;
+    margin-right: 0em;
 }
 
 .section-text {
@@ -142,7 +143,7 @@ hr.style {
     display: block;
     font-size: 3em;
     margin-left:1em;
-    
+    margin-right: 1em;
 }
 
 .section-text a {
@@ -161,7 +162,8 @@ hr.style {
     font-size: 3em;
     width: 100%;
     margin:auto;       
-    margin-left:1.5em;
+    margin-left:1em;
+    margin-right: 1em;
 }
 
 
@@ -178,7 +180,8 @@ hr.style {
     float: right;
     width: 100%;
     font-size: 3em;
-    padding-left:1em;
+    margin-left:1em;
+    margin-right: 0em;
     
 }
 .maps iframe {
