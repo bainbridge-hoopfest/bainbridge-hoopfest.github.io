@@ -2,31 +2,34 @@
 
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 
+@import url('https://fonts.googleapis.com/css?family=Rakeway');
 
 body {
-    background: #ffb732;
-    background: radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
-    background: -webkit-radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
+   
+    background: radial-gradient(circle, #ffdb99, #ffc55a, #ffc04c);
+
+    background: -webkit-radial-gradient(circle,#ffdb99, #ffc55a, #ffc966);
     /* Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
+    background: -o-radial-gradient(circle, #ffdb99, #ffc55a, #ffc04c);
     /* For Opera 11.6 to 12.0 */
-    background: -moz-radial-gradient(circle, #ffdb99, #ffb732, #ffa500);
+    background: -moz-radial-gradient(circle, #ffdb99, #ffc55a, #ffc04c);
     /* For Firefox 3.6 to 15 */
-    font-family: "Bookman";
+    font-family: "Helvetica";
     font-weight: 100;
+  margin: 0;
 }
 
 .main-body {
     width: 70%;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.75);
     border-color: #000000;
-    padding-top: .5em;
+
     display: block;
     padding-bottom: .5em;
     box-shadow: 4px 0 2px -2px rgba(0, 0, 0, .4);
     overflow: auto;
     font-family:Raleway, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif
-
+    filter:brightness(40%);
 }
 
 .main-body-header-inline h2 {

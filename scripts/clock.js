@@ -80,7 +80,7 @@ function getHoursLeft(){
         return smallHour;
     }
     if(todayHour>9){
-        var smallHour = 24 - todayHour + 8;
+        var smallHour = 23 - todayHour + 8;
         return smallHour; 
     }
 }
