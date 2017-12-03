@@ -90,9 +90,10 @@ a:hover {
     font-weight: 700;
     text-align: center;
     font-size: 1.5em;
-    width: 50%;
+    padding:0;
     margin:0;
     align-items: center;
+     -webkit-align-items: center;
   
     
 }
