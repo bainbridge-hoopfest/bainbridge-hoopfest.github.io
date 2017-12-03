@@ -142,6 +142,8 @@ hr.style {
     margin:auto;
     display: block;
     font-size: 3em;
+      margin-left:1em;     
+    margin-right: -1em;  
 }
 
 .section-text a {
