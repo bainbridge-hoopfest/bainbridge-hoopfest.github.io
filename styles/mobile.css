@@ -90,6 +90,9 @@ a:hover {
     font-weight: 700;
     text-align: center;
     font-size: 1.5em;
+    width: 50%;
+    margin:0;
+    align-items: center;
   
     
 }
@@ -101,7 +104,7 @@ a:hover {
     background-color: #000080;
     /*find new color or remove*/
     margin:auto;
-  
+    
 }
 
 #clockdiv div>span {
