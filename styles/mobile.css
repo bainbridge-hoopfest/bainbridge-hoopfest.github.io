@@ -80,7 +80,6 @@ body{
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    
     overflow-y: scroll;
 }
 
@@ -269,6 +268,11 @@ hr.style {
     }
      a.closebtn {
         display: inline;
+        font-size: 2em;
+    }
+    .sidenav img{
+        resize: 70%;
+
     }
   }
 
