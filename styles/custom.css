@@ -127,6 +127,7 @@ a {
 }
 
 h3{
+    color:#272c2c;
     font-weight: 450;
 }
 
@@ -183,7 +184,7 @@ hr.style {
     float: left;
     font-weight: bold;
     font-size: 2em;
-    color: #000000;
+    color: #272c2c;
     margin-left: 1em;
 }
 
@@ -240,6 +241,7 @@ hr.style {
 }
 
 .contact-section-names {
+    color:#272c2c;
     text-align: left;
     display: inline-block;
     float: left;
@@ -251,7 +253,7 @@ hr.style {
 
 .contact-section-names a {
     text-decoration: underline !important;
-    color: #000000;
+    color: #272c2c;
     padding: 0;
     margin: 0;
     text-decoration-style: solid;
@@ -282,7 +284,7 @@ a:hover .forms-button{
 }
 
 p{
-    color:#696969;
+    color:#272c2c;
 }
 
 .contact-section {
