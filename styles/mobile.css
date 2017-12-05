@@ -201,7 +201,7 @@ hr.style {
     height: 400px;
     border: 0;
     margin-top: 0px;
-    margin-left:2em;
+    margin-left:1em;
 }
 
 .contact-section-names {
@@ -241,3 +241,12 @@ hr.style {
     box-shadow: 4px 0 2px -2px rgba(0, 0, 0, .4);
     border-radius: 8px;
 }
+
+ .mobileShow {display: none;} 
+
+  /* Smartphone Portrait and Landscape */ 
+  @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px){ 
+      .mobileShow {display: inline;}
+  }
