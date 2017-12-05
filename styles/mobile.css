@@ -2,9 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 
-@import url('https://fonts.googleapis.com/css?family=Rakeway');
-@import url('http://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
+
+@import url('http://fonts.googleapis.com/css?family=Righteous');
 
 
 body{
@@ -17,7 +19,7 @@ body{
     padding:0;
     background-color: rgba(255, 255, 255, 0.9);
     display: block;
-    font-family:Raleway, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif
+    font-family:josefin Sans, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif
 
 }
 
@@ -25,7 +27,7 @@ body{
     color: #000080;
     width: 100%;
    	font-size: 10vw;
-    font-family: "Righteous", cursive;
+    font-family: "Righteous", Raleway;
     font-weight: 100;
     text-align: center;
     margin:0;
