@@ -28,7 +28,11 @@ body{
     margin:0;
     padding:0;
 }
-
+#text{
+    align-content: center;
+    width: 100%;
+  
+}
 
 #clockdiv {
     font-family: sans-serif;
