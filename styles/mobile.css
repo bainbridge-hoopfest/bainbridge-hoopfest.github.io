@@ -80,7 +80,7 @@ body{
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    
     overflow-y: scroll;
 }
 
@@ -254,6 +254,8 @@ hr.style {
     display: none;
 
 } 
+
+  a.closebtn{display: none;} 
   /* Smartphone Portrait and Landscape */ 
   @media only screen 
     and (min-device-width : 320px) 
@@ -265,28 +267,8 @@ hr.style {
         font-size:4.5em;
         position: relative;
     }
-  }
-
-
-  /* Smartphone Portrait and Landscape */ 
-  @media only screen 
-    and (min-device-width : 320px) 
-    and (max-device-width : 480px){ 
-      .closebtn {
-        display: inline}
-
-  a.closebtn{display: none;} 
-
-  .sidenav a:first-child{
-    display:none;
-  }
-
-  /* Smartphone Portrait and Landscape */ 
-  @media only screen 
-    and (min-device-width : 320px) 
-    and (max-device-width : 480px){ 
-      a.closebtn {
+     a.closebtn {
         display: inline;
     }
-    }
- 
+  }
+
