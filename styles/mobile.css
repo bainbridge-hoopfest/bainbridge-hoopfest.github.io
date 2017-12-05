@@ -191,14 +191,13 @@ hr.style {
 
 }
 .section-right{
-    float: right;
+    align-content: center;
     width: 100%;
     font-size: 3em;
     
 }
 .maps iframe {
     float: left;
-
     height: 400px;
     border: 0;
     margin-top: 0px;
