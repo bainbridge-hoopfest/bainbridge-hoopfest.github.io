@@ -268,10 +268,10 @@ hr.style {
     }
      a.closebtn {
         display: inline;
-        font-size: 2em;
+        font-size: 4em;
     }
     .sidenav img{
-        resize: 70%;
+       width: 70%;
 
     }
   }
