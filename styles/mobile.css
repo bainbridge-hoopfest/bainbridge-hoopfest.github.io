@@ -19,7 +19,7 @@ body{
     padding:0;
     background-color: rgba(255, 255, 255, 0.9);
     display: block;
-    font-family:josefin Sans, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif
+    font-family:Josefin Sans, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif
 
 }
 
@@ -232,6 +232,7 @@ hr.style {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .forms-button{
     padding:10px;
     margin: .4em;
@@ -259,6 +260,7 @@ hr.style {
       .mobileShow {
         display: inline-block;
         float:left;
+        margin-left:.25em;
         font-size:4.5em;
         position: relative;
     }
