@@ -323,7 +323,7 @@ p{
     and (max-device-width : 480px){ 
       .mobileShow {display: inline;}
   }
-    a.closebtn{display: inline;
+    a.closebtn{display:none;
       } 
 
   }
