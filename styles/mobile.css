@@ -269,6 +269,9 @@ hr.style {
      a.closebtn {
         display: inline;
     }
-    
+    .sidenav img{
+       width: 60%;
+
+    }
   }
 
