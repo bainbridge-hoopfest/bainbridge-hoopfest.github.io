@@ -275,7 +275,7 @@ hr.style {
       .closebtn {
         display: inline}
 
-  .closebtn{display: none;} 
+  a.closebtn{display: none;} 
 
   .sidenav a:first-child{
     display:none;
@@ -285,7 +285,7 @@ hr.style {
   @media only screen 
     and (min-device-width : 320px) 
     and (max-device-width : 480px){ 
-      .closebtn {
+      a.closebtn {
         display: inline;
     }
     }
