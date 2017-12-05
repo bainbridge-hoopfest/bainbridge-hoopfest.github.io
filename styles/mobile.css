@@ -192,6 +192,7 @@ hr.style {
 .section-right{
     align-content: center;
     width: 100%;
+    padding-right:0;
     font-size: 3em;
     
 }
