@@ -267,7 +267,6 @@ hr.style {
     }
   }
 
-  .close{display: none;} 
 
   /* Smartphone Portrait and Landscape */ 
   @media only screen 
@@ -277,6 +276,10 @@ hr.style {
         display: inline}
 
   .closebtn{display: none;} 
+
+  .sidenav a:first-child{
+    display:none;
+  }
 
   /* Smartphone Portrait and Landscape */ 
   @media only screen 
