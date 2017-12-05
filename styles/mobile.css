@@ -134,6 +134,7 @@ h3{
 }
 
 hr.style {
+    margin-top: .5em;
     border-top: 5px solid #000080;
     width: 95%;
     align-content: center;
@@ -242,7 +243,12 @@ hr.style {
     border-radius: 8px;
 }
 
- .mobileShow {display: none;} 
+ .mobileShow {
+    display: none;
+    float:left;
+    font-size:1.25em;
+    position: fixed;
+} 
 
   /* Smartphone Portrait and Landscape */ 
   @media only screen 
