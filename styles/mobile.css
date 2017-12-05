@@ -245,9 +245,7 @@ hr.style {
 
  .mobileShow {
     display: none;
-    float:left;
-    font-size:1.25em;
-    position: fixed;
+
 } 
 
   /* Smartphone Portrait and Landscape */ 
@@ -255,8 +253,10 @@ hr.style {
     and (min-device-width : 320px) 
     and (max-device-width : 480px){ 
       .mobileShow {
-        display: inline
-
+        display: inline;
+        float:left;
+    font-size:1.25em;
+    position: fixed;
         ;}
   }
 
