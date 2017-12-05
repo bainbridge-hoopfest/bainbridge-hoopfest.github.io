@@ -30,9 +30,38 @@ body{
 }
 
 
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding:auto;
+    margin:auto;
+    margin-right:30%;
+    
+}
+
+#clockdiv>div {
+    padding: 1em;
+    border-radius: 4px;
+    display: inline-block;
+    background-color: #000080;
+    /*find new color or remove*/
+    margin:auto;
+    
+}
+
+#clockdiv div>span {
+    padding: 1vw;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 2.5em;
+
+}
+
 
 .sidenav {
-    height: 100%;
+    height: 0;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -59,13 +88,6 @@ body{
     color: #f1f1f1;
 }
 
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
 .scd-counter-col {
     display: inline-block;
     clear: both;
@@ -98,38 +120,6 @@ h3{
     font-weight: 450;
 }
 
-a:hover {
-    color: #ffbb3b;
-}
-
-#clockdiv {
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    text-align: center;
-    padding:auto;
-    margin:auto;
-    margin-right:30%;
-    
-}
-
-#clockdiv>div {
-    padding: 1em;
-    border-radius: 4px;
-    display: inline-block;
-    background-color: #000080;
-    /*find new color or remove*/
-    margin:auto;
-    
-}
-
-#clockdiv div>span {
-    padding: 1vw;
-    border-radius: 3px;
-    display: inline-block;
-    font-size: 2.5em;
-
-}
 
 .smalltext {
     padding-top: 5px;
@@ -246,12 +236,4 @@ hr.style {
     border-left: 2px #000000;
     box-shadow: 4px 0 2px -2px rgba(0, 0, 0, .4);
     border-radius: 8px;
-}
-
-a:hover .forms-button{
-    opacity: .7;
-}
-
-p{
-    color:#696969;
 }
