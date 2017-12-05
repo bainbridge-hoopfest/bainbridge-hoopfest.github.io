@@ -255,9 +255,9 @@ hr.style {
       .mobileShow {
         display: inline;
         float:left;
-    font-size:1.25em;
-    position: fixed;
-        ;}
+        font-size:4.5em;
+        position: fixed;
+    }
   }
 
   .close{display: none;} 
