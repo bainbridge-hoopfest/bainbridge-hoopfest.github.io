@@ -30,23 +30,42 @@ body{
 }
 
 
-.navigation {
-    display: inline-block;
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    overflow-y: scroll;
 }
 
-.navigation ul li {
-    list-style-type: none;
-    display: inline-block;
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 1.7em;
+    align-content: center;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
 }
 
-.navigation ul {
-    padding-left: 0;
+.sidenav a:hover {
+    color: #f1f1f1;
 }
 
-.navigation ul li a {
-    font-weight: bold;
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
 }
-
 .scd-counter-col {
     display: inline-block;
     clear: both;

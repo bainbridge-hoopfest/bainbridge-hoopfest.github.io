@@ -2,7 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 
-@import url('https://fonts.googleapis.com/css?family=Rakeway');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
 
 body {
    
@@ -14,7 +16,7 @@ body {
     /* For Opera 11.6 to 12.0 */
     background: -moz-radial-gradient(circle, #ffdb99, #ffc55a, #ffc04c);
     /* For Firefox 3.6 to 15 */
-    font-family: "Helvetica";
+    font-family: "Josefin Sans", "Raleway", "Helvetica", Sans;
     font-weight: 100;
     margin: 0;
     background-color .5s;
@@ -36,8 +38,6 @@ body {
     padding-bottom: .5em;
     box-shadow: 4px 0 2px -2px rgba(0, 0, 0, .4);
     overflow: auto;
-    font-family:Raleway, Arial, 'Arial Unicode MS', Helvetica, Sans-Serif
-    filter:brightness(40%);
     float:right;
 }
 
@@ -200,7 +200,7 @@ hr.style {
 }
 
 .section-text a {
-    color: #696969;
+    color: #272c2c;
     padding: 0;
     margin: 0;
     text-decoration: underline;
@@ -220,7 +220,7 @@ hr.style {
 }
 
 .section-text-left a {
-    color: #696969;
+    color: #272c2c;
     padding: 0;
     margin: 0;
     text-decoration: underline;
