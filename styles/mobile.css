@@ -84,7 +84,7 @@ body{
 }
 
 .sidenav a {
-    padding: 1em 8px 1em 8px;
+    padding: .75em 8px .75em 8px;
     text-decoration: none;
     font-size: 4em;
     align-content: center;
@@ -268,7 +268,7 @@ hr.style {
     }
      a.closebtn {
         display: inline;
-        font-size: 4em;
+        width: 5%;
     }
     .sidenav img{
        width: 70%;
