@@ -91,7 +91,8 @@ body {
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    font-size: 7em; 
+    font-size: 7em;
+    float:right; 
 }
 
 #main {
