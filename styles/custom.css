@@ -11,14 +11,7 @@
 
 body {
    
-    background: radial-gradient(circle, #ffdb99, #ffc55a, #ffc04c);
-
-    background: -webkit-radial-gradient(circle,#ffdb99, #ffc55a, #ffc966);
-    /* Safari 5.1 to 6.0 */
-    background: -o-radial-gradient(circle, #ffdb99, #ffc55a, #ffc04c);
-    /* For Opera 11.6 to 12.0 */
-    background: -moz-radial-gradient(circle, #ffdb99, #ffc55a, #ffc04c);
-    /* For Firefox 3.6 to 15 */
+    
     font-family: "Josefin Sans", "Raleway", "Helvetica", Sans;
     font-weight: 100;
     margin: 0;
@@ -35,7 +28,6 @@ body {
 
 .main-body {
     width: 80%;
-    background-color: rgba(255, 255, 255, 0.3);
     border-color: #000000;
     display: block;
     padding-bottom: .5em;
