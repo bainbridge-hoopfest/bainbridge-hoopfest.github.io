@@ -11,8 +11,6 @@
 
 body {
     background-color: #FFF;
-    font-family: "Josefin Sans", "Raleway", "Helvetica", Sans;
-    font-weight: 100;
     margin: 0;
     background-color .5s;
     overflow-x: hidden;
@@ -117,7 +115,6 @@ body {
 
 
 a {
-    color: #fead16;
     text-decoration: none;
     padding: 0px 1.25vw;
 }
@@ -126,10 +123,6 @@ h3{
     color:#272c2c;
     font-weight: 450;
     font-size:1.6em;
-}
-
-a:hover {
-    color: #ffbb3b;
 }
 
 #clockdiv {
@@ -146,8 +139,6 @@ a:hover {
     width: 50%;
     align-content: center;
 }
-
-
 
 #clockdiv>div {
     padding: .8vw;
@@ -282,6 +273,7 @@ a:hover .forms-button{
 
 p{
     color:#272c2c;
+    font-family: Josephin Sans; 
     font-size: 1.1em;
 }
 
