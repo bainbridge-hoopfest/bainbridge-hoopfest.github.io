@@ -264,7 +264,7 @@ hr.style {
         float:left;
         margin-left:.25em;
         font-size:4.5em;
-        position: relative;
+        position: absolute;
     }
      a.closebtn {
         display: inline;
