@@ -26,11 +26,11 @@ function getMonthsLeft(){
     if((todayMonth===10) && (todayDay>17)){
         return 90;
     }
-    if((todayMonth===11) && (todayDay>17)){
-       return 59;
-    }
     if((todayMonth===11) && (todayDay<17)){
         return 90;
+    }
+    if((todayMonth===11) && (todayDay>17)){
+       return 59;
     }
     if((todayMonth===0) && (todayDay<17)){
         return 59;
@@ -79,7 +79,7 @@ function getHoursLeft(){
         var smallHour = 8 - todayHour;
         return smallHour;
     }
-    if(todayHour>9){
+    if(todayHour>9 || todayHour==9){
         var smallHour = 23 - todayHour + 8;
         return smallHour; 
     }

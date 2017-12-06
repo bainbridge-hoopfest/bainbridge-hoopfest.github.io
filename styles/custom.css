@@ -48,7 +48,8 @@ body {
     color: #000080;
     font-size: 4.2vw;
     font-family: "Righteous", Raleway;
-    font-weight: 100;
+    font-weight: 500;
+    font-stretch: expanded;
     margin-bottom:0;
 }
 .main-body-header-inline{
@@ -90,9 +91,7 @@ body {
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    font-size: 7em;
-    margin-left: 80%;
-  
+    font-size: 7em; 
 }
 
 #main {
