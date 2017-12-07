@@ -114,7 +114,7 @@ h3{
 
 #clockdiv {
     color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: sans-serif;
     display: inline-block;
     position: static;
     font-weight: 700;
@@ -151,6 +151,7 @@ h3{
 
 hr.style {
     border-top: 2px solid #000080;
+    color: #000080;
     width: 95%;
 }
 
@@ -188,7 +189,7 @@ hr.style {
     margin-right: 2em;
     display: block;
     font-size: 1.1em;
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Sans', sans-serif;
     width: 40%;
        
 }
@@ -197,6 +198,7 @@ hr.style {
     color: #272c2c;
     padding: 0;
     margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
     text-decoration: underline;
     font-weight: bold;
 
