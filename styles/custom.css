@@ -1,20 +1,13 @@
 /*Theme colors to be updated, just hideous*/
 
-@import url('https://fonts.googleapis.com/css?family=Monoton');
-
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
-@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
-
-@import url('http://fonts.googleapis.com/css?family=Righteous');
-
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600i,700|Righteous');
 
 body {
     background-color: #FFF;
     margin: 0;
     background-color .5s;
     overflow-x: hidden;
-
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #main-body{
@@ -40,7 +33,11 @@ body {
     font-weight: 500;
     font-stretch: expanded;
     margin-bottom:0;
+    display: inline;
+    float:left;
+    padding-left:1em;
 }
+
 .main-body-header-inline{
     display:inline-table;
     width: 100%;
@@ -107,14 +104,8 @@ body {
     font-size: inherit;
 }
 
-.main-body-header-inline h2 {
-    display: inline;
-    float: left;
-    padding-left: 1em;
-}
 
-
-a {
+a{
     text-decoration: none;
     padding: 0px 1.25vw;
 }
@@ -202,6 +193,7 @@ hr.style {
     margin-right: 2em;
     display: block;
     font-size: 1.1em;
+    font-family: 'Josephin Sans';
     width: 40%;
        
 }
@@ -215,6 +207,7 @@ hr.style {
 
 }
 .section-right{
+    font-family: 'Josephin Sans';
     float: right;
     width: 40%;
     padding-right:5%;
@@ -273,7 +266,7 @@ a:hover .forms-button{
 
 p{
     color:#272c2c;
-    font-family: Josephin Sans; 
+    font-family: 'Josephin Sans'; 
     font-size: 1.1em;
 }
 
