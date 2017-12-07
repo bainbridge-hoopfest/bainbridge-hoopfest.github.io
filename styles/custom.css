@@ -5,16 +5,9 @@
 body {
     background-color: #FFF;
     margin: 0;
-    background-color .5s;
     overflow-x: hidden;
     font-family: 'Josefin Sans', sans-serif;
 }
-
-#main-body{
-    transition: margin-left .5s;
-    padding: 16px;
-}
-
 
 .main-body {
     width: 80%;
@@ -42,11 +35,13 @@ body {
     display:inline-table;
     width: 100%;
 }
+
 #text{
     align-content: center;
     width: 50%;
     float:left;
 }
+
 .sidenav {
     height: 100%;
     width: 20%;
@@ -118,7 +113,7 @@ h3{
 
 #clockdiv {
     color: #fff;
-    font-family:Josephin Sans;
+    font-family: 'Josefin Sans', sans-serif;
     display: inline-block;
     position: static;
     font-weight: 700;
@@ -151,7 +146,6 @@ h3{
     font-size: 1.1vw;
     font-weight: 100;
     color: #fff;
-    /*find new color*/
 }
 
 hr.style {
@@ -193,7 +187,7 @@ hr.style {
     margin-right: 2em;
     display: block;
     font-size: 1.1em;
-    font-family: 'Josephin Sans';
+    font-family: 'Josefin Sans';
     width: 40%;
        
 }
@@ -207,7 +201,7 @@ hr.style {
 
 }
 .section-right{
-    font-family: 'Josephin Sans';
+    font-family: 'Josefin Sans';
     float: right;
     width: 40%;
     padding-right:5%;
@@ -244,6 +238,7 @@ hr.style {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .forms-button{
     padding:10px;
     margin:.4em;
@@ -266,7 +261,7 @@ a:hover .forms-button{
 
 p{
     color:#272c2c;
-    font-family: 'Josephin Sans'; 
+    font-family: 'Josefin Sans'; 
     font-size: 1.1em;
 }
 
