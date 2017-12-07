@@ -1,20 +1,11 @@
 /*Theme colors to be updated, just hideous*/
 
-
-body {
-    background-color: #FFF;
-    margin: 0;
-    overflow-x: hidden;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
 /* latin */
 @font-face {
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('Josefin Sans Regular'), local('JosefinSans-Regular'), url(JosefinSans-Regular.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  src: local('Josefin Sans'), local('JosefinSans'), url(JosefinSans.woff2) format('woff2');
 }
 /* latin */
 @font-face {
@@ -22,7 +13,6 @@ body {
   font-style: normal;
   font-weight: 600;
   src: local('Josefin Sans SemiBold'), local('JosefinSans-SemiBold'), url(JosefinSans-Semibold.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 /* latin */
 @font-face {
@@ -30,7 +20,6 @@ body {
   font-style: normal;
   font-weight: 700;
   src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(JosefinSans-Bold.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
 /* latin */
 @font-face {
@@ -38,7 +27,13 @@ body {
   font-style: normal;
   font-weight: 400;
   src: local('Righteous'), local('Righteous-Regular'), url(Righteous.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+ }
+
+body {
+    background-color: #FFF;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .main-body {
