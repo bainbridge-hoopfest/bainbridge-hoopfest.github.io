@@ -232,7 +232,7 @@ hr.style {
 }
 .maps iframe {
     float: left;
-    width: 46%;
+    width: 42%;
     height: 400px;
     border: 0;
     margin-top: 40px;
@@ -244,8 +244,7 @@ hr.style {
     display: inline-block;
     float: left;
     margin-left: 1.5em;
-    margin-right: -1.5em;
-    width: 85%;
+    width: 90%;
     position: relative;
 }
 
@@ -292,10 +291,9 @@ p{
     float: left;
     text-align: left;
     margin-left: 2em;
-    margin-right: 2em;
     display: block;
     font-size: 1.1em;
-    width:100%;
+    width:95%;
 
 }
 
@@ -309,9 +307,20 @@ p{
     width: 40%;
     float:left;
     margin-bottom:0em;
-    
 }
+
+.promotions{
+    display: inline-block;
+    float:left;
+  
+}
+.promotions img{
+    width:25%;
+    padding-left:1em;
+}
+
  .mobileShow {display: none;} 
+
 
   /* Smartphone Portrait and Landscape */ 
   @media only screen 
