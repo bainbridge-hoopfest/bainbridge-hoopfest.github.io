@@ -247,7 +247,6 @@ hr.style {
       .mobileShow {
         display: inline-block;
         float:left;
-        margin-left:.25em;
         font-size:4.5em;
         position: absolute;
     }
