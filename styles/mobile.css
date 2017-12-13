@@ -134,9 +134,7 @@ hr.style {
 .section-header {
     float: left;
     font-weight: bold;
-    font-size: 2em;
     color: #000000;
-    padding-left: 1em;
     padding-right:0;
     margin-right: 0em;
 }
@@ -147,8 +145,8 @@ hr.style {
     margin:auto;
     display: block;
     font-size: 3em;
-      margin-left:1em;     
-    margin-right: -1em;  
+    margin-left:1em;     
+  
 }
 
 .section-text a {
@@ -271,7 +269,20 @@ hr.style {
     font-size: 3em;
     line-height: 1.1em;
    }
-
+   .section-header{
+    font-size:3em;
+    padding-left: .1em;
+   }
+   .section-text{
+      margin-right: 1em;  
+   }
+   .inline-block {
+    height: 15em;
+    width: 30%;
+    }
+    .button p{
+        font-size: 2.4em;
+    }
   }
 
 
@@ -296,8 +307,6 @@ hr.style {
     float: left;
     display: inline-table;
     line-height: 100%;
-    height: 10em;
-    width: 20%;
     background-color: #000080;
     margin-right: 5%;
     padding-bottom: 3%;
@@ -312,7 +321,6 @@ hr.style {
 .button p{
     vertical-align: middle;
     color: #FFF !important;
-    font-size: 1.5em;
     line-height: 1.25em;
     text-decoration: none;
     cursor: pointer;
