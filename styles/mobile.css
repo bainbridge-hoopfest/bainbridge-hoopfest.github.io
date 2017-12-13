@@ -262,13 +262,14 @@ hr.style {
     width:60%;
    }
    .popup h2{
-    font-size:3em;
+    font-size:4em;
    }
    .popup .close{
-    font-size:3em;
+    font-size:6em;
    }
    .popup .content{
-    font-size: 2em;
+    font-size: 3em;
+    line-height: 1.1em;
    }
 
   }
