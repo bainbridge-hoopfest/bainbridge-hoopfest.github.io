@@ -78,7 +78,9 @@
          </div>
              <!--Navigation Panel-->
                     <div id="mySidenav" class="sidenav" >
-                     <a href="index.html" data-ajax="false"><div><img src="images/side-logo2.png" width="90%" height="90%" /></div></a>
+                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &#215; </a>
+                        <a href="index.html" data-ajax="false"><div><img src="images/side-logo2.png" width="90%" height="90%" /></div></a>
+                        <a href="register.html" data-ajax="false"><div>Register and Rules</div></a>
                         <a href="register.html" data-ajax="false"><div>Register and Rules</div></a>
                         <a href="sponsor.html" data-ajax="false"><div>Sponsorship</div></a>
                         <a href="volunteer.html" data-ajax="false"><div>Volunteer</div></a>
@@ -89,5 +91,15 @@
                 </div>
       </center>
       <script type="text/javascript" src="scripts/clock.js"></script>
+       <script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+
+    </script>
    </body>
 </html>
