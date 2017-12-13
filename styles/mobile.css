@@ -257,7 +257,137 @@ hr.style {
     }
     .sidenav img{
        width: 50%;
+   }
+   .popup{
+    width:60%;
+   }
+   .popup h2{
+    font-size:3em;
+   }
+   .popup .close{
+    font-size:3em;
+   }
+   .popup .content{
+    font-size: 2em;
+   }
 
-    }
   }
+
+
+.promotions{
+    display: inline-block;
+    float:left;
+  
+}
+.promotions img{
+    width:25%;
+    padding-left:1em;
+}
+
+.food-sponsor{
+    width: 90%;
+    display:inline-block;
+    float:left;
+    margin-left:2em;
+}
+
+.inline-block {
+    float: left;
+    display: inline-table;
+    line-height: 100%;
+    height: 10em;
+    width: 20%;
+    background-color: #000080;
+    margin-right: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    color:#FFF;
+    border-radius: 15px;
+}
+
+
+.button p{
+    vertical-align: middle;
+    color: #FFF !important;
+    font-size: 1.5em;
+    line-height: 1.25em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.inline-block:hover {
+    opacity: .8;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .content {
+  max-height: 40%;
+}
+
+.popup .content a{
+    font-family: inherit;
+    font-size: inherit;
+    color:inherit;
+    padding:inherit;
+    text-decoration: underline;
+
+}
+
+@media screen and (max-width: 700px){
+  .inline-block{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+
+p{
+    color:#272c2c;
+    font-family: "Josefin Sans"; 
+    font-size: 1.1em;
+}
 
