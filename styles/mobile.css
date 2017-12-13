@@ -367,7 +367,7 @@ hr.style {
   background: #fff;
   border-radius: 5px;
   position: relative;
-  transition: all 5s ease-in-out;
+  transition: all 2s ease-in-out;
 }
 
 .popup h2 {
