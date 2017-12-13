@@ -301,8 +301,9 @@ hr.style {
   
 }
 .promotions img{
-    width:25%;
+    width:65%;
     padding-left:1em;
+    padding-bottom: 2.5em;
 }
 
 .food-sponsor{
