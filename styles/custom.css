@@ -1,6 +1,27 @@
 /*Theme colors to be updated, just hideous*/
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700');
 /* latin */
+ .mobileShow {display: none;} 
+
+
+  /* Smartphone Portrait and Landscape */ 
+  @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px){ 
+      .mobileShow {display: inline;}
+  }
+    a.closebtn{display:none;
+      } 
+
+  }
+
+  /* Smartphone Portrait and Landscape */ 
+  @media only screen 
+    and (min-device-width : 320px) 
+    and (max-device-width : 480px){ 
+      a.closebtn {
+        display: inline;}
+    }
 @font-face {
   font-family: 'Josefin Sans';
   font-style: normal;
@@ -277,10 +298,6 @@ hr.style {
     border-radius: 8px;
 }
 
-a:hover .forms-button{
-    opacity: .7;
-}
-
 p{
     color:#272c2c;
     font-family: "Josefin Sans"; 
@@ -319,24 +336,38 @@ p{
     padding-left:1em;
 }
 
- .mobileShow {display: none;} 
+.sponsor{
+    width: 90%;
+    display:inline-block;
+    float:left;
+    margin-left:2em;
+}
 
+.sponsor-business-inline{
+    float: left;
+    display: inline-table;
+    line-height: 100%;
+    height: 10em;
+    width: 20%;
+    background-color: #000080;
+    margin-right: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
 
-  /* Smartphone Portrait and Landscape */ 
-  @media only screen 
-    and (min-device-width : 320px) 
-    and (max-device-width : 480px){ 
-      .mobileShow {display: inline;}
-  }
-    a.closebtn{display:none;
-      } 
+.sponsor-business-inline p{
+    vertical-align: middle;
+    color: #000;
+    font-size: 1.4em;
+    line-height: 1.15em;
+}
 
-  }
+.sponsor-business-inline:hover{
+    opacity: .4;
+}
 
-  /* Smartphone Portrait and Landscape */ 
-  @media only screen 
-    and (min-device-width : 320px) 
-    and (max-device-width : 480px){ 
-      a.closebtn {
-        display: inline;}
-    }
+.sponsor-business-inline:hover p{
+    display:none;
+}
