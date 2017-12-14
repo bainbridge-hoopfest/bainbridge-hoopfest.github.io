@@ -267,8 +267,10 @@ hr.style {
     display: inline-block;
     float: left;
     margin-left: 1.5em;
-    width: 90%;
+    width: 50%;
     position: relative;
+    padding-left:1em;
+    border-left:2px solid #000080; height:inherit;
 }
 
 .contact-section-names a {

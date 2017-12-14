@@ -267,15 +267,13 @@ hr.style {
     text-align: left;
     display: inline-block;
     float: left;
-    margin-left:-80%;
-    margin-right: 1em;
-    width: 170%;
+    border-left:none;
+    width: 90%;
+    padding-right:1em;
+    padding-left:0;
     position: relative;
     }
 
-    .line-break{
-        border-left:0px #FFF !important;
-    }
     .contact-section-names h3{
         font-size:3.5em;
     }
