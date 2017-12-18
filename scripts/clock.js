@@ -29,19 +29,19 @@ function getMonthsLeft(){
     if((todayMonth===11) && (todayDay<17)){
         return 90;
     }
-    if((todayMonth===11) && (todayDay>17)){
+    if((todayMonth===11) && ((todayDay==17)|| (todayDay>17))){
        return 59;
     }
     if((todayMonth===0) && (todayDay<17)){
         return 59;
     }
-    if((todayMonth===0) && (todayDay>17)){
+    if((todayMonth===0) && ((todayDay==17)|| (todayDay>17))){
         return 31;
     }
     if((todayMonth===1) && (todayDay<17)){
         return 28;
     }
-    if((todayMonth===1) && (todayDay>17)){
+    if((todayMonth===1) && ((todayDay==17)|| (todayDay>17))){
         return 0;
     }
     if((todayMonth===2) && (todayDay<17)){
@@ -58,7 +58,7 @@ function getDaysLeft(){
         var smallDay = 16-todayDay;
         return smallDay;
     }
-    if(todayDay>17){
+    if((todayDay>17) || (todayDay==17)){
         if(todayMonth===11 || todayMonth===0 || todayMonth===2){
             var smallDay = 31- todayDay + 16;
             return smallDay;
