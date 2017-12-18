@@ -225,6 +225,7 @@ hr.style {
         position: absolute;
         margin-left:5%;
         margin-right:2%;
+        padding-bottom: 0;
     }
      a.closebtn {
         display: inline;
