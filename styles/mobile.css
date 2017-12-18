@@ -79,9 +79,9 @@ body{
 }
 
 .sidenav a {
-    padding: .75em 8px .75em 8px;
+    padding: .75em 6px .75em 6px;
     text-decoration: none;
-    font-size: 4em;
+    font-size: 3.75em;
     align-content: center;
     color: #818181;
     display: block;
@@ -221,11 +221,10 @@ hr.style {
     }
       .mobileShow {
         display: table-row;
-        font-size:4.25em;
+        font-size:4.5em;
         position: absolute;
         margin-left:5%;
         margin-right:2%;
-        padding-bottom: 0;
     }
      a.closebtn {
         display: inline;
