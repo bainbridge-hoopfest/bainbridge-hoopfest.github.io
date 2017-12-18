@@ -75,13 +75,13 @@ body{
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .sidenav a {
     padding: .75em 6px .75em 6px;
     text-decoration: none;
-    font-size: 3.75em;
+    font-size: 3.5em;
     align-content: center;
     color: #818181;
     display: block;
