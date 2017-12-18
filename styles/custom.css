@@ -159,6 +159,7 @@ h3{
     float: right;
     width: 50%;
     align-content: center;
+
 }
 
 #clockdiv p{
@@ -167,7 +168,7 @@ h3{
 
 #clockdiv>div {
     padding: .8vw;
-    border-radius: 3px;
+    border-radius: 6px;
     display: inline-block;
     background-color: #000080;
     /*find new color or remove*/
@@ -287,7 +288,7 @@ hr.style {
 }
 
 .forms-button{
-    padding:10px;
+    padding: .5em;
     margin:.4em;
     background-color:#000080;
     font-size:1em;
@@ -300,6 +301,7 @@ hr.style {
     border-left: 2px #000000;
     box-shadow: 4px 0 2px -2px rgba(0, 0, 0, .4);
     border-radius: 8px;
+    width:50%;
 }
 
 
