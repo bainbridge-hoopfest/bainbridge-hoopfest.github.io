@@ -341,8 +341,12 @@ hr.style {
 }
 
 .promotions img {
-  width: 25%;
+  width: 20%;
   padding-left: 1em;
+}
+
+.promotions a:hover{
+    opacity: .7;
 }
 
 .food-sponsor {
@@ -453,7 +457,7 @@ p {
   font-size: 1.1em;
 }
 
-.dot {
+.counter {
   display: none;
 
 }
