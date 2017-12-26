@@ -257,6 +257,11 @@ hr.style {
   padding-right: 5%;
 }
 
+.section-right img{
+    height:300px;
+    margin-top:100px;
+}
+
 .maps iframe {
   float: left;
   width: 42%;
@@ -446,4 +451,36 @@ p {
   color: #272c2c;
   font-family: "Josefin Sans";
   font-size: 1.1em;
+}
+
+.dot {
+  display: none;
+
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }
