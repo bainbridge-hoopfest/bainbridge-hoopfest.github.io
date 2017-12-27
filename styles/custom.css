@@ -259,7 +259,7 @@ hr.style {
 
 .section-right img{
     height:300px;
-    margin-top:100px;
+    margin-top:80px;
 }
 
 .maps iframe {
@@ -404,13 +404,19 @@ hr.style {
 }
 
 .popup {
-  margin: 20% auto auto 40%;
+  margin: 5% auto auto 35%;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
-  width: 30%;
+  width: 40%;
   position: relative;
   transition: all 5s ease-in-out;
+
+}
+
+.popup img{
+    width:80%;
+    align-content: center;
 }
 
 .popup h2 {
@@ -430,7 +436,8 @@ hr.style {
 }
 
 .popup .content {
-  max-height: 40%;
+  max-height: 50%;
+  font-size:1.1em;
 }
 
 .popup .content a {
