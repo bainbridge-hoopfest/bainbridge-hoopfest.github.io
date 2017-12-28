@@ -424,6 +424,10 @@ hr.style {
   color: #333;
 }
 
+.popup .content a:hover{
+    opacity: .8;
+}
+
 .popup .close {
   position: absolute;
   top: 20px;
