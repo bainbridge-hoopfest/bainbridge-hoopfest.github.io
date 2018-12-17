@@ -1,4 +1,4 @@
-
+//Javascript inspiration by https://www.sitepoint.com/build-javascript-countdown-timer-no-dependencies/
 function getTimeRemaining(endtime) {
     var t = Date.parse(endtime) - Date.parse(new Date());
     var seconds = Math.floor((t / 1000) % 60);
